@@ -15,7 +15,7 @@ Our minimal AI utilized fundamental rules to determine safe moves in Minesweeper
 
 ## II. Final AI
 ### II.A. Final AI Algorithm
-In our final AI, we introduced model checking using the backtracking algorithm from project slides. We computed the c frontier and the v frontier, resulting in dictionaries where keys represent v or c values and values represent C(v) or V(c) respectively. We sorted v values by column and row to expedite solution identification. We used an array as our stack, applying backtracking until all solutions were found. We then tallied solutions to determine the tile with the lowest probability of containing a mine.
+In our final AI, we introduced model checking using the backtracking algorithm. We computed the c frontier and the v frontier, resulting in dictionaries where keys represent v or c values and values represent C(v) or V(c) respectively. We sorted v values by column and row to expedite solution identification. We used an array as our stack, applying backtracking until all solutions were found. We then tallied solutions to determine the tile with the lowest probability of containing a mine.
 
 ### II.B. Final AI Performance
 | Board Size | Sample Size | Score (average time per world solved) | Worlds Complete |
