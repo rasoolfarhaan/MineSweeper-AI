@@ -25,6 +25,3 @@ In our final AI, we introduced model checking using the backtracking algorithm f
 | 16x16      | 1000        | 0.145882055                          | 807             |
 | 16x30      | 1000        | 0.499876575                          | 353             |
 | **Total Summary** | **4000** |                                       | **1990**        |
-
----
-Feel free to enhance this README with additional information or sections as needed.
